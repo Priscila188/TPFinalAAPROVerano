@@ -1,0 +1,78 @@
+.Contenedor-Rosybrown {
+    background-color: rosybrown;
+    width: 100%;
+    height: 80px;
+    left: 1em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.section {
+    display: flex;
+}
+
+.Contenerdor-1 {
+    display: flex;
+    justify-content: center;
+    background-color: rosybrown;
+}
+
+.texto-centrar {
+    text-align: center;
+}
+
+.aside {
+    width: 1000px;
+    min-height: 500px;
+    background-color: dimgray;
+    margin-left: 700px;
+    margin-top: 0;
+}
+
+.Item {
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner{
+    height: 600px;
+}
+
+.border {
+    width: 300px;
+    background-color: slategray;
+    padding: 30px;
+    margin: auto;
+    width: 500px;
+}
+
+.conteiner-general {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+
+.fondo-quienessomos {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .conteiner-general {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .conteiner-general {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
