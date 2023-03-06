@@ -47,11 +47,10 @@
 }
 
 .border {
-    width: 300px;
+    width: 500px;
     background-color: slategray;
     padding: 30px;
     margin: auto;
-    width: 500px;
 }
 
 .conteiner-general {
@@ -70,7 +69,7 @@
     }
 }
 
-@media (min-width: 600px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 800px) {
     .conteiner-general {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
