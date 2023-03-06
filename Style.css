@@ -47,11 +47,10 @@
 }
 
 .border {
-    width: 300px;
+    width: 500px;
     background-color: slategray;
     padding: 30px;
     margin: auto;
-    width: 500px;
 }
 
 .conteiner-general {
