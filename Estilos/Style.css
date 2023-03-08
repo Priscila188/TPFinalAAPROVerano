@@ -26,9 +26,8 @@
 
 .aside {
     width: 1000px;
-    min-height: 500px;
-    background-color: dimgray;
-    margin-left: 700px;
+    background-color: rgb(143, 110, 110);
+    margin-left: 600px;
     margin-top: 0;
 }
 
@@ -62,14 +61,14 @@
     text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 320px) {
     .conteiner-general {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr ;
     }
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 800px) {
     .conteiner-general {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
